@@ -1,0 +1,132 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+  }
+
+.content {
+    width: 260px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    padding: 0.3rem;
+    margin-top: 100px;
+    border-radius: 15px;
+    align-self: center;
+    color: hsl(215, 51%, 70%);
+    box-shadow: 1px 2px 28px 1px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .content img {
+    height: 15.2rem;
+    width: auto;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0 auto;
+    align-self: center;
+  }
+
+.content img:active{
+    background: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.write-up{
+   margin-left: 10px;
+}
+
+.content h3{
+    color: white;
+}
+
+.content h3:active{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.content p{
+    font-size: 0.9rem;
+}
+
+.active{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 15px;
+    margin-right: 10px;
+}
+
+.active b{
+    margin-right: 20px;
+}
+
+.active b:active{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.active b img{
+    width: 10px;
+    height: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.active img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.footer{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.footer img{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer b{
+    font-weight: normal;
+    color: white;
+}
+
+.footer b:active{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution { 
+    margin-top: 50px;
+    font-size: 11px; text-align: center; 
+    color: white;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+      width: 260px;
+      height: auto;
+      background-color: hsl(216, 50%, 16%);
+      margin: auto;
+      padding: 0.3rem;
+      margin-top: 100px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 28px 1px rgba(0, 0, 0, 0.1);
+    }
+  
+    .attribution{
+        display: none;
+    }
+  }
