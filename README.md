@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://Github.com/HenryAgu/NFTCard)
-- Live Site URL: [Add live site URL here](https://tourmaline-panda-8634ab.netlify.app/)
+- Live Site URL: (https://tourmaline-panda-8634ab.netlify.app/)
 
 ## My process
 
